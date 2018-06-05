@@ -1,11 +1,7 @@
 server:
   port: 6005
   
-mybatis: 
-  config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.tzq.entity#自己的实体路径
-  mapper-locations: 
-  - classpath:mybatis/mapper/*.xml
+
 
 spring:
     application: 
