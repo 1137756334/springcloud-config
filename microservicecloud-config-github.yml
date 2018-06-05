@@ -13,10 +13,10 @@ spring:
      username: root
      password: 123
      dbcp2: 
-      min-idle: 5
-      initial-size: 5
-      max-total: 5
-      max-wait-millis: 200
+      min-idle: 50
+      initial-size: 50
+      max-total: 50
+      max-wait-millis: 2001
       
 eureka:
   client:
